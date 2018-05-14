@@ -1,0 +1,22 @@
+milestone {
+  align-items: center;
+}
+
+.body {
+    background-color: lightblue;
+}
+h1 {
+   text-align: center;
+   font-family: 'Dancing Script', cursive;
+
+ }
+.container {
+  background-color: #02A3C6;
+}
+
+.suppliers{
+  image-orientation: center;
+}
+img{
+  padding-left: 100px;
+}
