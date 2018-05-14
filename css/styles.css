@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+#milestone {
+=======
+<<<<<<< HEAD
 .nav {
   padding-bottom: 30px;
 }
@@ -6,6 +9,7 @@
   color: white;
 =======
 milestone {
+>>>>>>> 256661ea14ed62c8b1f9d9c38001f5b237b403ad
   align-items: center;
 }
 
@@ -17,9 +21,9 @@ h1 {
    font-family: 'Dancing Script', cursive;
 
  }
-.container {
+/* .container {
   background-color: #02A3C6;
-}
+} */
 
 .suppliers{
   image-orientation: center;
@@ -27,4 +31,11 @@ h1 {
 img{
   padding-left: 100px;
 >>>>>>> 03ede7a642965e844188028b1633d3c3eee81823
+}
+.RRR {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
 }
