@@ -1,6 +1,30 @@
+<<<<<<< HEAD
 .nav {
   padding-bottom: 30px;
 }
 .nav-link{
   color: white;
+=======
+milestone {
+  align-items: center;
+}
+
+.body {
+    background-color: lightblue;
+}
+h1 {
+   text-align: center;
+   font-family: 'Dancing Script', cursive;
+
+ }
+.container {
+  background-color: #02A3C6;
+}
+
+.suppliers{
+  image-orientation: center;
+}
+img{
+  padding-left: 100px;
+>>>>>>> 03ede7a642965e844188028b1633d3c3eee81823
 }
