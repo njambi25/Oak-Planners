@@ -1,4 +1,4 @@
-milestone {
+#milestone {
   align-items: center;
 }
 
@@ -10,13 +10,20 @@ h1 {
    font-family: 'Dancing Script', cursive;
 
  }
-.container {
+/* .container {
   background-color: #02A3C6;
-}
+} */
 
 .suppliers{
   image-orientation: center;
 }
 img{
   padding-left: 100px;
+}
+.RRR {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
 }
