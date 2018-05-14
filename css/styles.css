@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+.nav {
+  padding-bottom: 30px;
+}
+.nav-link{
+  color: white;
+=======
 milestone {
   align-items: center;
 }
@@ -19,4 +26,5 @@ h1 {
 }
 img{
   padding-left: 100px;
+>>>>>>> 03ede7a642965e844188028b1633d3c3eee81823
 }
