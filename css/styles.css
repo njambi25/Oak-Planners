@@ -1,9 +1,62 @@
-#works{
+#row-works {
+  margin: 2%;
+}
+
+#works {
   width: 100%;
 }
-.prevw{
+
+.prevw {
   text-align: center;
 }
-.nav-item{
+
+.nav-item {
   color: white;
+}
+
+.works h1 {
+  margin-top: 15px;
+  margin: 2%;
+  color: #544940;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.row h4 {
+  color: #58534f;
+  font-family: 'Rasa', serif;
+}
+
+.works {
+  background-color: #e5e1de;
+}
+
+/* link-section */
+
+#link-section {
+  margin: 3%;
+}
+
+#linkp {
+  padding-right: 5px;
+  border-radius: 5%;
+}
+
+#titlelink {
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+
+/* budget-section */
+
+#budget h2 {
+  font-family: 'Arima Madurai', cursive;
+}
+
+#budget p {
+  font-family: 'Rasa', serif;
+  font-size: 24px;
+}
+
+#budget {
+  padding-left: 25px;
 }
