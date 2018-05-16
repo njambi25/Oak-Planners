@@ -1,7 +1,13 @@
-/* how-it-works-section */
+#works {
+  width: 100%;
+}
 
-#row-works {
-  margin: 2%;
+.prevw {
+  text-align: center;
+}
+
+.nav-item {
+  color: white;
 }
 
 .works h1 {
