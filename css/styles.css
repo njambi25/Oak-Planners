@@ -1,41 +1,52 @@
-<<<<<<< HEAD
-#milestone {
-=======
-<<<<<<< HEAD
-.nav {
-  padding-bottom: 30px;
-}
-.nav-link{
-  color: white;
-=======
-milestone {
->>>>>>> 256661ea14ed62c8b1f9d9c38001f5b237b403ad
-  align-items: center;
+/* how-it-works-section */
+
+#row-works {
+  margin: 2%;
 }
 
-.body {
-    background-color: lightblue;
+.works h1 {
+  margin-top: 15px;
+  margin: 2%;
+  color: #544940;
+  font-family: 'Arima Madurai', cursive;
 }
-h1 {
-   text-align: center;
-   font-family: 'Dancing Script', cursive;
 
- }
-/* .container {
-  background-color: #02A3C6;
-} */
+.row h4 {
+  color: #58534f;
+  font-family: 'Rasa', serif;
+}
 
-.suppliers{
-  image-orientation: center;
+.works {
+  background-color: #e5e1de;
 }
-img{
-  padding-left: 100px;
->>>>>>> 03ede7a642965e844188028b1633d3c3eee81823
+
+/* link-section */
+
+#link-section {
+  margin: 3%;
 }
-.RRR {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
+
+#linkp {
+  padding-right: 5px;
+  border-radius: 5%;
+}
+
+#titlelink {
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+
+/* budget-section */
+
+#budget h2 {
+  font-family: 'Arima Madurai', cursive;
+}
+
+#budget p {
+  font-family: 'Rasa', serif;
+  font-size: 24px;
+}
+
+#budget {
+  padding-left: 25px;
 }
