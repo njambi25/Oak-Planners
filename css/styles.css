@@ -28,11 +28,11 @@
   margin: 2%;
 }
 
-.works h1 {
-  margin-top: 15px;
-  margin: 2%;
-  color: #544940;
-  font-family: 'Arima Madurai', cursive;
+#works h1 {
+ margin-top: 15px;
+ margin: 2%;
+ color: #544940;
+ font-family: 'Arima Madurai', cursive;
 }
 
 .row h4 {
@@ -40,8 +40,8 @@
   font-family: 'Rasa', serif;
 }
 
-.works {
-  background-color: #e5e1de;
+#works {
+ background-color: #e5e1de;
 }
 
 /* link-section */
@@ -370,58 +370,11 @@ body {
 .container {
   max-width: 100%,
 }
-
-/* subscribe pop-up */
-
-#list-builder {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  filter: alpha(opacity=80);
-  opacity: 0.8;
-  display: none;
-}
-
-#popup-box {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #911e26;
-  color: #FFFFFF;
-  width: 90%;
-  max-width: 600px;
-  padding: 30px;
-  border: 10px solid #FFFFFF;
-  display: none;
-}
-
-#popup-close {
-  position: absolute;
-  top: -25px;
-  right: -25px;
-  cursor: pointer;
-  width: 40px;
-}
-
-#popup-box h1 {
-  margin: 0;
-}
-
-#popup-box form {
-  margin-bottom: 0px;
-}
-
-#popup-box input {
-  padding: 10px;
-  border: 1px solid #333;
-  width: 40%;
-}
-
-#popup-box button {
-  padding: 10px;
-  border: 1px solid #333;
+.parallax{
+  background-image: url("../img/plank1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
