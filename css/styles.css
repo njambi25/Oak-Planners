@@ -4,7 +4,7 @@
   margin: 2%;
 }
 
-.works h1 {
+#works h1 {
   margin-top: 15px;
   margin: 2%;
   color: #544940;
@@ -16,7 +16,7 @@
   font-family: 'Rasa', serif;
 }
 
-.works {
+#works {
   background-color: #e5e1de;
 }
 
@@ -30,7 +30,7 @@
   padding-right: 5px;
   border-radius: 5%;
   height: 289px;
-  width: 445px;
+  width: 324px;
 }
 
 #titlelink {
@@ -282,7 +282,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  height: 423px;
+
 }
 
 @-webkit-keyframes bounce {
@@ -340,5 +340,13 @@ body {
 }
 
 .container {
-  max-width: 100%,
+  max-width: 100%;
+}
+.parallax{
+  background-image: url("../img/plank1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
