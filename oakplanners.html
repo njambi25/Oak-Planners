@@ -13,9 +13,14 @@
   <link href="https://fonts.googleapis.com/css?family=Acme|Arima+Madurai:700|Francois+One|Rasa:300" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+
+  <link rel="icon" type="img/png" href="Icon/oak planners logo.png">
   <title>Oak Planners</title>
 </head>
 
@@ -33,7 +38,7 @@
     <nav class="top nav nav-pills nav-fill navbar sticky-top navbar-dark bg-dark">
       <a class="nav-item nav-link" href="#works">How It Works</a>
       <a class="nav-item nav-link" href="#previousworks">Previous Works</a>
-      <a class="nav-item nav-link" href="#">Logo</a>
+      <a class="nav-item nav-link" href="#"><img src="Icon/oak planners logo.png"></a>
       <a class="nav-item nav-link" href="#">Register</a>
       <a class="nav-item nav-link" href="myModal" data-toggle="modal" data-target="#myModal">Log In</a>
     </nav>
@@ -107,19 +112,21 @@
         <p>Hooray to those little and ginormous <br> moments.</p>
       </div>
     </div>
-  </div <div class="budget">
-  <div class="row" id="budget">
-    <div class="col-md-6">
-      <br><br>
-      <h2><b>Track Your Budget</b></h2>
-      <p>Stay ahead of your budget and payments from a single dashboard.<br> Don't be caught off-guard.</p>
-      <button type="click" id="submit" class="btn btn-success" name="button">Learn More :-)</button>
-    </div>
-    <div class="col-md-6">
-      <br><br>
-      <img src="img/budget.png" alt="budget">
-    </div>
   </div>
+
+  <div class="budget">
+    <div class="row" id="budget">
+      <div class="col-md-6">
+        <br><br>
+        <h2><b>Track Your Budget</b></h2>
+        <p>Stay ahead of your budget and payments from a single dashboard.<br> Don't be caught off-guard.</p>
+        <button type="click" id="submit" class="btn btn-success" name="button">Learn More :-)</button>
+      </div>
+      <div class="col-md-6">
+        <br><br>
+        <img src="img/budget.png" alt="budget">
+      </div>
+    </div>
   </div>
   <div class="contain" id="link-section">
     <div class="row">
@@ -141,36 +148,95 @@
       </div>
     </div>
   </div>
-  <div id="previousworks">
-    <div class="row">
-      <div class="col-md-12">
-        <p class="prevw">Previous Works and Testimonials</p>
+
+  <div class="header" id="top">
+    <h5>Scroll Down</h5>
+    <i class="fa fa-angle-down animated bounce"></i>
+  </div>
+  <!-- birthdayslider1 -->
+  <div class="section animate">
+    <div class="middle">
+      <img id="middle" src="img/work4.jpg" />
+    </div>
+    <div class="left title">
+      <div class="content">
+        <h6>Jack turns 1</h6>
+        <p>Mr Jack turns 1! Where did our first year go buddy? Many firsts for you, as well as me! Your first tooth, your first time rolling over, crawling, and that ...</p>
+        <a href="#" class="btn-primary">Read more</a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <a href="work1.html"><img id="works" src="img/talk.jpeg" alt="talk"></a>
-        <p>Testimonial1</p>
-      </div>
-      <div class="col-md-4">
-        <a href="work2.html"><img id="works" src="img/dinner.jpeg" alt="foodie"></a>
-        <p>Testimonial2</p>
-      </div>
-      <div class="col-md-4">
-        <a href="more.html"><button type="button" class="btn btn-outline-info">More &raquo;</button></a>
+    <div class="right tiles">
+      <img src="img/celebrate1.jpeg" />
+    </div>
+  </div>
+  <!-- dinnerslider2 -->
+  <div class="section">
+    <div class="middle">
+      <img id="middle" src="img/wine1.jpeg" />
+    </div>
+    <div class="right title">
+      <div class="content">
+        <h2>Check out this guy.</h2>
+        <p>What an interesting looking person! I wonder if they've ever climbed Mount Everest, or seen the Egyptian Pyramids. If not, I hope that one day they get to. You go random stock image person! Follow your dreams!</p>
+        <a href="#" class="btn-primary">Read more</a>
       </div>
     </div>
+
+    <div class="left tiles">
+      <img src="img/dinner.jpeg" />
+
+    </div>
+  </div>
+  <!-- weddingslider3 -->
+  <div class="section">
+    <div class="middle">
+      <img src="img/work2.jpg" />
+    </div>
+    <div class="left title">
+      <div class="content">
+        <h6>Andrew weds Bailey.</h6>
+        <p>My mom drove me to the ceremony site...</p>
+        <a href="#" class="btn-primary">Read more</a>
+      </div>
+    </div>
+
+    <div class="right tiles">
+      <img src="img/wedding.jpg" />
+    </div>
+
+  </div>
+  <!-- conferenceslider4 -->
+  <div class="section">
+    <div class="middle">
+      <img src="img/work1.jpg" />
+    </div>
+    <div class="right title">
+      <div class="content">
+        <h6>Green belt movement conference.</h6>
+        <p> We began the day with an introduction to the way Nairobi Town Council is supporting tree planting using the...</p>
+        <a href="#" class="btn-primary">Read more</a>
+      </div>
+    </div>
+
+    <div class="left tiles">
+      <img src="img/event1.jpg" />
+
+    </div>
+
   </div>
 
   <div class="footer">
-    <footer class="page footer font-small indigo pt -0">
+    <a href="#top" class="scrollTo"><i class="fa fa-angle-up animated bounce"></i></a>
+    <h5>Scroll Up</h5>
+  </div>
+
+
+  <div class="footer1">
+    <footer class="page footer1 font-small indigo pt -0">
       <div class="container">
-        <!--First row-->
         <div class="row">
-          <!-- First column -->
           <div class="col-md-12">
             <div class="mb-5 flex-center">
-              <!-- facebook -->
               <a class="fb-ic" href="https://www.facebook.com/">
                 <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                 </a>
@@ -191,15 +257,13 @@
         </div>
       </div>
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <h7 class="text-uppercase mb-4 font-weight-bold">Contact</h7>
         <p><i class="fa fa-home mr-3"></i>Nairobi, NBR 10012, Kenya</p>
         <p><i class="fa fa-envelope mr-3" href="https://oakplanners@gmail.com/"></i>Oakplanners@gmail.com</p>
         <p><i class="fa fa-phone mr-3"></i>+254716280403</p>
-        <!-- <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p> -->
       </div>
-      <div class="footer-copyright py-3 text-center">
+      <div class="footer1-copyright py-3 text-center">
         © 2018 Copyright:<b>The Oak Planners.All Rights Reserved</b>
-        <!-- <a href="Our live lunk goes in here"> Oakplanners.com </a> -->
       </div>
     </footer>
   </div>
