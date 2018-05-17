@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <!-- googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Francois+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Francois+One|Rasa:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Arima+Madurai:700|Francois+One|Rasa:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+  <div id="list-builder"></div>
+  <div id="popup-box">
+    <img src="close.png" id="popup-close" />
+    <div id="popup-box-content">
+      <h1>Subscribe to Oak Planners Newsletter</h1>
+      <p>
+        Stay up to date on the latest in wedding trends, budgeting, and givaways from us by subscribing to our newsletter.
+      </p>
+      <form id="popup-form" action="https://email_list_service_api.com">
+        <input type="hidden" name="list" value="key_list_etc" />
+        <input type="text" name="name" placeholder="Full Name" />
+        <input type="text" name="email" placeholder="Email Address" />
+        <button type="button" name="subscribe">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <script src="list-builder.js"></script>
+
+</body>
+
+</html>
