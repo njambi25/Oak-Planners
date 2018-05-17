@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Acme|Francois+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Acme|Francois+One|Rasa:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Acme|Arima+Madurai:700|Francois+One|Rasa:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -43,7 +45,7 @@
       <a class="nav-item nav-link" href="myModal" data-toggle="modal" data-target="#myModal">Log In</a>
     </nav>
     <!-- </div> -->
-
+    <!-- carousel-section -->
     <div class="contain">
       <div class="row">
         <div class="col-lg-12">
@@ -87,6 +89,7 @@
   </div>
   </div>
   </div>
+  <!-- end carousel section -->
   <div class="works">
     <br><br><br>
     <h1><b>How it works</b></h1>
@@ -113,7 +116,7 @@
       </div>
     </div>
   </div>
-
+  <!-- budget section -->
   <div class="budget">
     <div class="row" id="budget">
       <div class="col-md-6">
@@ -160,7 +163,7 @@
     </div>
     <div class="left title">
       <div class="content">
-        <h6>Jack turns 1</h6>
+        <h2>Jack turns 1</h2>
         <p>Mr Jack turns 1! Where did our first year go buddy? Many firsts for you, as well as me! Your first tooth, your first time rolling over, crawling, and that ...</p>
         <a href="#" class="btn-primary">Read more</a>
       </div>
@@ -194,7 +197,7 @@
     </div>
     <div class="left title">
       <div class="content">
-        <h6>Andrew weds Bailey.</h6>
+        <h2>Andrew weds Bailey.</h2>
         <p>My mom drove me to the ceremony site...</p>
         <a href="#" class="btn-primary">Read more</a>
       </div>
@@ -212,7 +215,7 @@
     </div>
     <div class="right title">
       <div class="content">
-        <h6>Green belt movement conference.</h6>
+        <h2>Green belt movement conference.</h2>
         <p> We began the day with an introduction to the way Nairobi Town Council is supporting tree planting using the...</p>
         <a href="#" class="btn-primary">Read more</a>
       </div>
@@ -220,21 +223,28 @@
 
     <div class="left tiles">
       <img src="img/event1.jpg" />
-
     </div>
-
   </div>
 
-  <div class="footer">
+  <div class="footer" id="bottom">
     <a href="#top" class="scrollTo"><i class="fa fa-angle-up animated bounce"></i></a>
     <h5>Scroll Up</h5>
   </div>
+  <!-- end-of-portfolio section -->
 
-
+  <!-- footer section -->
   <div class="footer1">
     <footer class="page footer1 font-small indigo pt -0">
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" id="contacts">
+        <h7 class="text-uppercase mb-4 font-weight-bold">Contact</h7>
+        <p><i class="fa fa-home mr-3"></i>Nairobi, NBR 10012, Kenya</p>
+        <p><i class="fa fa-envelope mr-3" href="https://oakplanners@gmail.com/"></i>Oakplanners@gmail.com</p>
+        <p><i class="fa fa-phone mr-3"></i>+254716280403</p>
+      </div>
+      <!-- iconlinks section -->
       <div class="container">
-        <div class="row">
+        <div class="row" id="icons">
           <div class="col-md-12">
             <div class="mb-5 flex-center">
               <a class="fb-ic" href="https://www.facebook.com/">
@@ -256,67 +266,64 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h7 class="text-uppercase mb-4 font-weight-bold">Contact</h7>
-        <p><i class="fa fa-home mr-3"></i>Nairobi, NBR 10012, Kenya</p>
-        <p><i class="fa fa-envelope mr-3" href="https://oakplanners@gmail.com/"></i>Oakplanners@gmail.com</p>
-        <p><i class="fa fa-phone mr-3"></i>+254716280403</p>
-      </div>
       <div class="footer1-copyright py-3 text-center">
         © 2018 Copyright:<b>The Oak Planners.All Rights Reserved</b>
       </div>
     </footer>
   </div>
+  <!-- end footer section -->
+
   <div class="container">
-  <!-- <h2>Log in/Sign up</h2> -->
-  <!-- Trigger the modal with a button -->
-  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Log in</button> -->
+    <!-- <h2>Log in/Sign up</h2> -->
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Log in</button> -->
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+    <!-- Registration Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Please Log in or Sign up</h4>
-        </div>
-        <div class="modal-body">
-          <p>Please link Oak-Planners to your various social media accounts.</p>
-          <div class="row">
-            <!-- First column -->
-            <div class="col-md-12">
-              <div class="mb-5 flex-center">
-                <!-- facebook -->
-                <a class="fb-ic" href="https://www.facebook.com/">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Please Log in or Sign up</h4>
+          </div>
+          <div class="modal-body">
+            <p>Please link Oak-Planners to your various social media accounts.</p>
+            <div class="row">
+              <!-- First column -->
+              <div class="col-md-12">
+                <div class="mb-5 flex-center">
+                  <!-- facebook -->
+                  <a class="fb-ic" href="https://www.facebook.com/">
                   <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                   </a>
-                <a class="tw-ic" href="https://twitter.com/signup?lang=en">
+                  <a class="tw-ic" href="https://twitter.com/signup?lang=en">
                     <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                   </a>
-                <a class="li-ic" href="https://linkedin.com/uas/login">
+                  <a class="li-ic" href="https://linkedin.com/uas/login">
                     <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                   </a>
-                <a class="ins-ic" href="https://www.instagram.com/accounts/login/">
+                  <a class="ins-ic" href="https://www.instagram.com/accounts/login/">
                     <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                   </a>
-                <a class="pin-ic" href="https://www.pinterest.com/login/">
+                  <a class="pin-ic" href="https://www.pinterest.com/login/">
                     <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
                   </a>
+                </div>
               </div>
             </div>
           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+
       </div>
-
     </div>
-  </div>
+    <!-- end registration -modal -->
 
-</div>
+  </div>
 
 </body>
 
