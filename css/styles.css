@@ -27,10 +27,10 @@
 }
 
 #linkp {
- padding-right: 5px;
- border-radius: 5%;
- height: 289px;
- width: 445px;
+  padding-right: 5px;
+  border-radius: 5%;
+  height: 289px;
+  width: 445px;
 }
 
 #titlelink {
@@ -92,9 +92,9 @@ body {
 }
 
 .header h5, .footer h5 {
- font-size: 3em;
- font-weight: 300;
- font-family: 'Lobster', cursive;
+  font-size: 3em;
+  font-weight: 300;
+  font-family: 'Lobster', cursive;
 }
 
 .header i.fa, .footer i.fa {
@@ -321,24 +321,28 @@ body {
  font-family: 'Josefin Sans', sans-serif;
 }
 
+.content {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 /* footer1 */
 
 .footer1 {
- background-color: black;
+  background-color: black;
 }
 
 .footer1-copyright {
- color: #9b95a9;
+  color: #9b95a9;
 }
 
 #contacts {
- color: #9b95a9;
+  color: #9b95a9;
 }
 
 #icons {
- font-size: 12px;
+  font-size: 12px;
 }
 
 .container {
- max-width: 100%,
-}    
+  max-width: 100%,
+}
