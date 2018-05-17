@@ -92,6 +92,7 @@ body {
 .header h5, .footer h5 {
   font-size: 3em;
   font-weight: 300;
+  font-family: 'Lobster', cursive;
 }
 
 .header i.fa, .footer i.fa {
@@ -314,8 +315,28 @@ body {
   height: 423px;
 }
 
+.content {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 /* footer1 */
 
 .footer1 {
   background-color: black;
+}
+
+.footer1-copyright {
+  color: #9b95a9;
+}
+
+#contacts {
+  color: #9b95a9;
+}
+
+#icons {
+  font-size: 12px;
+}
+
+.container {
+  max-width: 100%,
 }
