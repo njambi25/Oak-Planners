@@ -1,3 +1,23 @@
-#rw{
+/* aboutus */
+
+#rw {
   font-family: 'Comfortaa', cursive;
+  background-color: aliceblue;
+  margin-top: 2%;
+}
+
+#img {
+  width: 1085px;
+  height: 340px;
+}
+
+p {
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Arima Madurai', cursive;
+  color: #6d491f;
+  text-align: center;
 }

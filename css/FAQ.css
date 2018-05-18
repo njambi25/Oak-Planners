@@ -1,0 +1,30 @@
+body {
+  background-image: url('../img/faqbackground.jpg');
+  background-color: aliceblue;
+  background-size: cover;
+  height: 100%;
+}
+
+/* FAQ */
+
+#col1 {
+  background-color: aliceblue;
+  width: 740px;
+  margin-left: 30%;
+}
+
+#col2 {
+  background-color: aliceblue;
+  width: 740px;
+  margin-left: 30%;
+}
+
+#col1 ul ol p h3 {
+  margin-left: 2%;
+  font-family: 'Acme', sans-serif;
+}
+
+#col2 ul ol p h3 {
+  margin-left: 2%;
+  font-family: 'Acme', sans-serif;
+}

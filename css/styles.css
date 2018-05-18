@@ -392,17 +392,9 @@ body {
   background-size: cover;
 }
 
-.faqb {
-  background-color: #cce6e0;
-  margin-left: 18%;
-  width: 62%;
-}
-
-}
-
 /* work2 */
 
-#baby {
+.baby {
   font-size: 40px;
   font-family: 'Rasa', serif;
   text-align: center;
@@ -435,21 +427,19 @@ body {
   font-size: 33px;
 }
 
-/* FAQ */
+/* work 3 */
 
-/* .faqt {
-  color: #10889e;
-  font-size: 25px;
+.green {
+  font-size: 40px;
+  font-family: 'Rasa', serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 2%;
+  color: #c6757d;
 }
 
-.faq ul {
-  text-align: center;
+.greenp {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Rasa', serif;
+  font-size: 20px;
 }
-
-#col2 {
-  color: #10889e;
-  font-size: 25px;
-  margin-top: 30px;
-} */
