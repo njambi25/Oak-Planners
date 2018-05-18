@@ -1,3 +1,8 @@
+#carouselimg {
+  height: 659px;
+  width: 1905px;
+}
+
 /* login */
 
 .modal-content {
@@ -431,7 +436,7 @@ body {
 
 /* FAQ */
 
-.faqt {
+/* .faqt {
   color: #10889e;
   font-size: 25px;
   text-align: center;
@@ -440,5 +445,10 @@ body {
 
 .faq ul {
   text-align: center;
-  margin-top: 384px
 }
+
+#col2 {
+  color: #10889e;
+  font-size: 25px;
+  margin-top: 30px;
+} */
