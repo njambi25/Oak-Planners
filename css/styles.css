@@ -1,4 +1,4 @@
-<<<<<<< HEAD #carouselimg {
+#carouselimg {
   height: 659px;
   width: 1905px;
 }
@@ -27,7 +27,6 @@
   text-align: center;
 }
 
-=======>>>>>>>64a3db1cbede355bd6cc1f92accc13b0a5a0ca6e
 /* works section */
 
 #row-works {
@@ -373,6 +372,7 @@ body {
 
 #contacts {
   color: #9b95a9;
+  padding-left: 115px;
 }
 
 #icons {
@@ -442,4 +442,10 @@ body {
   margin-right: 2%;
   font-family: 'Rasa', serif;
   font-size: 20px;
+}
+
+#col2 {
+  color: #10889e;
+  font-size: 25px;
+  margin-top: 30px;
 }
